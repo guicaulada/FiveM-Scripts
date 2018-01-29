@@ -1,4 +1,4 @@
-# fivem-scripts
+# FiveM Scripts
 
 Any improvements you make on this scripts **must** be published on GitHub. 
 
