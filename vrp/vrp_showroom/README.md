@@ -24,3 +24,21 @@ With:
 		    TriggerEvent('veh_SR:CheckMoneyForBasicVeh', user_id, vname, vehicle[2] ,veh_type)
 ```
 on lines 111 and 113 of your vrp/modules/basic_garage.lua, above the vRP.closeMenu(player) function, for basic garage compatibility.
+
+## License
+
+    FiveM Scripts
+    Copyright (C) 2018  Sighmir
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
