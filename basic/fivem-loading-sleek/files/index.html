@@ -1,0 +1,53 @@
+<!--
+Author: @NicolasStr_
+If you have any issue, please consider opening an issue on Github
+https://github.com/NicolasStr/fivem-loading-sleek/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIVEM SLEEK LOADINGSCREEN</title>
+	<!--<meta charset="utf-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/css/kube.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="lib/style.css">
+</head>
+<body>
+	<div class="bg"></div>
+	<div class="content w100 group">
+		<div class="float-left text-left">
+			<h2 id="welcome"></h2>
+			<h1 id="servername"></h1>
+		</div>
+		<div class="desc text-right float-right">
+			<p id="text"></p>
+		</div>
+	</div>
+	<!--<div class="progression">
+		<p class="progress-infos text-center" id="infos"></p>
+		<div class="progress-bar" id="progress"></div>
+	</div>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/kube/6.5.2/js/kube.min.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="lib/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        var loader = new sleekLoader();
+	        loader.init();
+	    });
+	</script>
+    <div class="letni">
+        <h2 title="Loading server...">Loading server...</h2>
+        <h3></h3>
+        <div class="loadbar"><div class="thingy"></div></div>
+			<p>"I would like to die on Mars. Just not on impact." - Elon Musk (2014)</p>
+        </div>
+        <div class="bottom">
+            <div id="gradient">
+            </div>
+        </div>
+	</div>
+</body>
+</html>
