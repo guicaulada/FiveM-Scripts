@@ -1,0 +1,155 @@
+[
+  {
+    "Name": "TAT_S1_001",
+    "LocalizedName": "King Fight",
+    "HashNameMale": "MP_LR_Tat_001_M",
+    "HashNameFemale": "MP_LR_Tat_001_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6100
+  },
+  {
+    "Name": "TAT_S1_002",
+    "LocalizedName": "Holy Mary",
+    "HashNameMale": "MP_LR_Tat_002_M",
+    "HashNameFemale": "MP_LR_Tat_002_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 10250
+  },
+  {
+    "Name": "TAT_S1_004",
+    "LocalizedName": "Gun Mic",
+    "HashNameMale": "MP_LR_Tat_004_M",
+    "HashNameFemale": "MP_LR_Tat_004_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 3500
+  },
+  {
+    "Name": "TAT_S1_005",
+    "LocalizedName": "No Evil",
+    "HashNameMale": "MP_LR_Tat_005_M",
+    "HashNameFemale": "MP_LR_Tat_005_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 5900
+  },
+  {
+    "Name": "TAT_S1_007",
+    "LocalizedName": "LS Serpent",
+    "HashNameMale": "MP_LR_Tat_007_M",
+    "HashNameFemale": "MP_LR_Tat_007_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 5500
+  },
+  {
+    "Name": "TAT_S1_009",
+    "LocalizedName": "Amazon",
+    "HashNameMale": "MP_LR_Tat_009_M",
+    "HashNameFemale": "MP_LR_Tat_009_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 9500
+  },
+  {
+    "Name": "TAT_S1_010",
+    "LocalizedName": "Bad Angel",
+    "HashNameMale": "MP_LR_Tat_010_M",
+    "HashNameFemale": "MP_LR_Tat_010_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 16500
+  },
+  {
+    "Name": "TAT_S1_013",
+    "LocalizedName": "Love Gamble",
+    "HashNameMale": "MP_LR_Tat_013_M",
+    "HashNameFemale": "MP_LR_Tat_013_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8300
+  },
+  {
+    "Name": "TAT_S1_014",
+    "LocalizedName": "Love is Blind",
+    "HashNameMale": "MP_LR_Tat_014_M",
+    "HashNameFemale": "MP_LR_Tat_014_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 17750
+  },
+  {
+    "Name": "TAT_S1_015",
+    "LocalizedName": "Seductress",
+    "HashNameMale": "MP_LR_Tat_015_M",
+    "HashNameFemale": "MP_LR_Tat_015_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 6150
+  },
+  {
+    "Name": "TAT_S1_017",
+    "LocalizedName": "Ink Me",
+    "HashNameMale": "MP_LR_Tat_017_M",
+    "HashNameFemale": "MP_LR_Tat_017_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 7700
+  },
+  {
+    "Name": "TAT_S1_020",
+    "LocalizedName": "Presidents",
+    "HashNameMale": "MP_LR_Tat_020_M",
+    "HashNameFemale": "MP_LR_Tat_020_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 6850
+  },
+  {
+    "Name": "TAT_S1_021",
+    "LocalizedName": "Sad Angel",
+    "HashNameMale": "MP_LR_Tat_021_M",
+    "HashNameFemale": "MP_LR_Tat_021_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 15000
+  },
+  {
+    "Name": "TAT_S1_023",
+    "LocalizedName": "Dance of Hearts",
+    "HashNameMale": "MP_LR_Tat_023_M",
+    "HashNameFemale": "MP_LR_Tat_023_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 6500
+  },
+  {
+    "Name": "TAT_S1_026",
+    "LocalizedName": "Royal Takeover",
+    "HashNameMale": "MP_LR_Tat_026_M",
+    "HashNameFemale": "MP_LR_Tat_026_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 7400
+  },
+  {
+    "Name": "TAT_S1_027",
+    "LocalizedName": "Los Santos Life",
+    "HashNameMale": "MP_LR_Tat_027_M",
+    "HashNameFemale": "MP_LR_Tat_027_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 7800
+  },
+  {
+    "Name": "TAT_S1_033",
+    "LocalizedName": "City Sorrow",
+    "HashNameMale": "MP_LR_Tat_033_M",
+    "HashNameFemale": "MP_LR_Tat_033_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 10000
+  }
+]

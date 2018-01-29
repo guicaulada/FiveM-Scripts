@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Pricedown;
+    src: url('fonts/pricedown.ttf');
+}
+
+.css{
+  font-family: Pricedown !important;
+  color: white;
+  text-shadow: black 0 0 10px;
+}

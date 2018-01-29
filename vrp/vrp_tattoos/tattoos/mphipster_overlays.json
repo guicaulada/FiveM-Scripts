@@ -1,0 +1,443 @@
+[
+  {
+    "Name": "TAT_HP_000",
+    "LocalizedName": "Crossed Arrows",
+    "HashNameMale": "FM_Hip_M_Tat_000",
+    "HashNameFemale": "FM_Hip_F_Tat_000",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6750
+  },
+  {
+    "Name": "TAT_HP_001",
+    "LocalizedName": "Single Arrow",
+    "HashNameMale": "FM_Hip_M_Tat_001",
+    "HashNameFemale": "FM_Hip_F_Tat_001",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 2000
+  },
+  {
+    "Name": "TAT_HP_002",
+    "LocalizedName": "Chemistry",
+    "HashNameMale": "FM_Hip_M_Tat_002",
+    "HashNameFemale": "FM_Hip_F_Tat_002",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 2900
+  },
+  {
+    "Name": "TAT_HP_003",
+    "LocalizedName": "Diamond Sparkle",
+    "HashNameMale": "FM_Hip_M_Tat_003",
+    "HashNameFemale": "FM_Hip_F_Tat_003",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 2100
+  },
+  {
+    "Name": "TAT_HP_004",
+    "LocalizedName": "Bone",
+    "HashNameMale": "FM_Hip_M_Tat_004",
+    "HashNameFemale": "FM_Hip_F_Tat_004",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 2900
+  },
+  {
+    "Name": "TAT_HP_005",
+    "LocalizedName": "Beautiful Eye",
+    "HashNameMale": "FM_Hip_M_Tat_005",
+    "HashNameFemale": "FM_Hip_F_Tat_005",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 7450
+  },
+  {
+    "Name": "TAT_HP_006",
+    "LocalizedName": "Feather Birds",
+    "HashNameMale": "FM_Hip_M_Tat_006",
+    "HashNameFemale": "FM_Hip_F_Tat_006",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 4550
+  },
+  {
+    "Name": "TAT_HP_007",
+    "LocalizedName": "Bricks",
+    "HashNameMale": "FM_Hip_M_Tat_007",
+    "HashNameFemale": "FM_Hip_F_Tat_007",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 6000
+  },
+  {
+    "Name": "TAT_HP_008",
+    "LocalizedName": "Cube",
+    "HashNameMale": "FM_Hip_M_Tat_008",
+    "HashNameFemale": "FM_Hip_F_Tat_008",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 4850
+  },
+  {
+    "Name": "TAT_HP_009",
+    "LocalizedName": "Squares",
+    "HashNameMale": "FM_Hip_M_Tat_009",
+    "HashNameFemale": "FM_Hip_F_Tat_009",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 4000
+  },
+  {
+    "Name": "TAT_HP_010",
+    "LocalizedName": "Horseshoe",
+    "HashNameMale": "FM_Hip_M_Tat_010",
+    "HashNameFemale": "FM_Hip_F_Tat_010",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 3150
+  },
+  {
+    "Name": "TAT_HP_011",
+    "LocalizedName": "Infinity",
+    "HashNameMale": "FM_Hip_M_Tat_011",
+    "HashNameFemale": "FM_Hip_F_Tat_011",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 3000
+  },
+  {
+    "Name": "TAT_HP_012",
+    "LocalizedName": "Antlers",
+    "HashNameMale": "FM_Hip_M_Tat_012",
+    "HashNameFemale": "FM_Hip_F_Tat_012",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6500
+  },
+  {
+    "Name": "TAT_HP_013",
+    "LocalizedName": "Boombox",
+    "HashNameMale": "FM_Hip_M_Tat_013",
+    "HashNameFemale": "FM_Hip_F_Tat_013",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6950
+  },
+  {
+    "Name": "TAT_HP_014",
+    "LocalizedName": "Spray Can",
+    "HashNameMale": "FM_Hip_M_Tat_014",
+    "HashNameFemale": "FM_Hip_F_Tat_014",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 4300
+  },
+  {
+    "Name": "TAT_HP_015",
+    "LocalizedName": "Mustache",
+    "HashNameMale": "FM_Hip_M_Tat_015",
+    "HashNameFemale": "FM_Hip_F_Tat_015",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 3400
+  },
+  {
+    "Name": "TAT_HP_016",
+    "LocalizedName": "Lightning Bolt",
+    "HashNameMale": "FM_Hip_M_Tat_016",
+    "HashNameFemale": "FM_Hip_F_Tat_016",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 3700
+  },
+  {
+    "Name": "TAT_HP_017",
+    "LocalizedName": "Eye Triangle",
+    "HashNameMale": "FM_Hip_M_Tat_017",
+    "HashNameFemale": "FM_Hip_F_Tat_017",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 2650
+  },
+  {
+    "Name": "TAT_HP_018",
+    "LocalizedName": "Origami",
+    "HashNameMale": "FM_Hip_M_Tat_018",
+    "HashNameFemale": "FM_Hip_F_Tat_018",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 1800
+  },
+  {
+    "Name": "TAT_HP_019",
+    "LocalizedName": "Charm",
+    "HashNameMale": "FM_Hip_M_Tat_019",
+    "HashNameFemale": "FM_Hip_F_Tat_019",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 3400
+  },
+  {
+    "Name": "TAT_HP_020",
+    "LocalizedName": "Geo Pattern",
+    "HashNameMale": "FM_Hip_M_Tat_020",
+    "HashNameFemale": "FM_Hip_F_Tat_020",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 7350
+  },
+  {
+    "Name": "TAT_HP_021",
+    "LocalizedName": "Geo Fox",
+    "HashNameMale": "FM_Hip_M_Tat_021",
+    "HashNameFemale": "FM_Hip_F_Tat_021",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 7850
+  },
+  {
+    "Name": "TAT_HP_022",
+    "LocalizedName": "Pencil",
+    "HashNameMale": "FM_Hip_M_Tat_022",
+    "HashNameFemale": "FM_Hip_F_Tat_022",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 2250
+  },
+  {
+    "Name": "TAT_HP_023",
+    "LocalizedName": "Smiley",
+    "HashNameMale": "FM_Hip_M_Tat_023",
+    "HashNameFemale": "FM_Hip_F_Tat_023",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 7000
+  },
+  {
+    "Name": "TAT_HP_024",
+    "LocalizedName": "Pyramid",
+    "HashNameMale": "FM_Hip_M_Tat_024",
+    "HashNameFemale": "FM_Hip_F_Tat_024",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 2950
+  },
+  {
+    "Name": "TAT_HP_025",
+    "LocalizedName": "Watch Your Step",
+    "HashNameMale": "FM_Hip_M_Tat_025",
+    "HashNameFemale": "FM_Hip_F_Tat_025",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 3500
+  },
+  {
+    "Name": "TAT_HP_026",
+    "LocalizedName": "Pizza",
+    "HashNameMale": "FM_Hip_M_Tat_026",
+    "HashNameFemale": "FM_Hip_F_Tat_026",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 2400
+  },
+  {
+    "Name": "TAT_HP_027",
+    "LocalizedName": "Padlock",
+    "HashNameMale": "FM_Hip_M_Tat_027",
+    "HashNameFemale": "FM_Hip_F_Tat_027",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 5750
+  },
+  {
+    "Name": "TAT_HP_028",
+    "LocalizedName": "Thorny Rose",
+    "HashNameMale": "FM_Hip_M_Tat_028",
+    "HashNameFemale": "FM_Hip_F_Tat_028",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 4800
+  },
+  {
+    "Name": "TAT_HP_029",
+    "LocalizedName": "Sad",
+    "HashNameMale": "FM_Hip_M_Tat_029",
+    "HashNameFemale": "FM_Hip_F_Tat_029",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 1850
+  },
+  {
+    "Name": "TAT_HP_030",
+    "LocalizedName": "Shark Fin",
+    "HashNameMale": "FM_Hip_M_Tat_030",
+    "HashNameFemale": "FM_Hip_F_Tat_030",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 2250
+  },
+  {
+    "Name": "TAT_HP_031",
+    "LocalizedName": "Skateboard",
+    "HashNameMale": "FM_Hip_M_Tat_031",
+    "HashNameFemale": "FM_Hip_F_Tat_031",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 4950
+  },
+  {
+    "Name": "TAT_HP_032",
+    "LocalizedName": "Paper Plane",
+    "HashNameMale": "FM_Hip_M_Tat_032",
+    "HashNameFemale": "FM_Hip_F_Tat_032",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 4350
+  },
+  {
+    "Name": "TAT_HP_033",
+    "LocalizedName": "Stag",
+    "HashNameMale": "FM_Hip_M_Tat_033",
+    "HashNameFemale": "FM_Hip_F_Tat_033",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6950
+  },
+  {
+    "Name": "TAT_HP_034",
+    "LocalizedName": "Stop",
+    "HashNameMale": "FM_Hip_M_Tat_034",
+    "HashNameFemale": "FM_Hip_F_Tat_034",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 9500
+  },
+  {
+    "Name": "TAT_HP_035",
+    "LocalizedName": "Sewn Heart",
+    "HashNameMale": "FM_Hip_M_Tat_035",
+    "HashNameFemale": "FM_Hip_F_Tat_035",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 7500
+  },
+  {
+    "Name": "TAT_HP_036",
+    "LocalizedName": "Shapes",
+    "HashNameMale": "FM_Hip_M_Tat_036",
+    "HashNameFemale": "FM_Hip_F_Tat_036",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 5150
+  },
+  {
+    "Name": "TAT_HP_037",
+    "LocalizedName": "Sunrise",
+    "HashNameMale": "FM_Hip_M_Tat_037",
+    "HashNameFemale": "FM_Hip_F_Tat_037",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 3750
+  },
+  {
+    "Name": "TAT_HP_038",
+    "LocalizedName": "Grub",
+    "HashNameMale": "FM_Hip_M_Tat_038",
+    "HashNameFemale": "FM_Hip_F_Tat_038",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 3500
+  },
+  {
+    "Name": "TAT_HP_039",
+    "LocalizedName": "Sleeve",
+    "HashNameMale": "FM_Hip_M_Tat_039",
+    "HashNameFemale": "FM_Hip_F_Tat_039",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 10000
+  },
+  {
+    "Name": "TAT_HP_040",
+    "LocalizedName": "Black Anchor",
+    "HashNameMale": "FM_Hip_M_Tat_040",
+    "HashNameFemale": "FM_Hip_F_Tat_040",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 2950
+  },
+  {
+    "Name": "TAT_HP_041",
+    "LocalizedName": "Tooth",
+    "HashNameMale": "FM_Hip_M_Tat_041",
+    "HashNameFemale": "FM_Hip_F_Tat_041",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 2575
+  },
+  {
+    "Name": "TAT_HP_042",
+    "LocalizedName": "Sparkplug",
+    "HashNameMale": "FM_Hip_M_Tat_042",
+    "HashNameFemale": "FM_Hip_F_Tat_042",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 4300
+  },
+  {
+    "Name": "TAT_HP_043",
+    "LocalizedName": "Triangle White",
+    "HashNameMale": "FM_Hip_M_Tat_043",
+    "HashNameFemale": "FM_Hip_F_Tat_043",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 5500
+  },
+  {
+    "Name": "TAT_HP_044",
+    "LocalizedName": "Triangle Black",
+    "HashNameMale": "FM_Hip_M_Tat_044",
+    "HashNameFemale": "FM_Hip_F_Tat_044",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 5500
+  },
+  {
+    "Name": "TAT_HP_045",
+    "LocalizedName": "Mesh Band",
+    "HashNameMale": "FM_Hip_M_Tat_045",
+    "HashNameFemale": "FM_Hip_F_Tat_045",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 4000
+  },
+  {
+    "Name": "TAT_HP_046",
+    "LocalizedName": "Triangles",
+    "HashNameMale": "FM_Hip_M_Tat_046",
+    "HashNameFemale": "FM_Hip_F_Tat_046",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 3750
+  },
+  {
+    "Name": "TAT_HP_047",
+    "LocalizedName": "Cassette",
+    "HashNameMale": "FM_Hip_M_Tat_047",
+    "HashNameFemale": "FM_Hip_F_Tat_047",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 1900
+  },
+  {
+    "Name": "TAT_HP_048",
+    "LocalizedName": "Peace",
+    "HashNameMale": "FM_Hip_M_Tat_048",
+    "HashNameFemale": "FM_Hip_F_Tat_048",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 7850
+  }
+]

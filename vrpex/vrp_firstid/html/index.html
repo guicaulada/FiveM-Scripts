@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	<title>Character Creation</title>
+	<link href="css/form.css" rel="stylesheet" type="text/css">
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="js/debounce.min.js"></script>
+	<script src="js/validation.js"></script>
+	<script src="js/script.js"></script>
+  </head>
+  <body class="zf-backgroundBg"><!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+	<img class="cursor" src="img/cursor.png">
+	<div class="full-screen">
+      <div class="zf-templateWidth">
+	    <form 
+		  action='http://vrp_firstid/form'
+		  name='form' 
+		  method='POST' 
+		  onsubmit='javascript:document.charset="UTF-8"; return zf_ValidateAndSubmit();'
+	  	  accept-charset='UTF-8' 
+	  	  enctype='multipart/form-data' 
+	  	  id='form'
+	    >
+	      <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+	      <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+	      <div class="zf-templateWrapper"><!---------template Header Starts Here---------->
+	        <ul class="zf-tempHeadBdr">
+	  	    <li class="zf-tempHeadContBdr">
+	  		  <h2 class="zf-frmTitle"><em>Character Creation</em></h2>
+	  		  <p class="zf-frmDesc">It's the first time you joined this server. Please create your identity.</p>
+	  	      <div class="zf-clearBoth"></div>
+	  	    </li>
+	  	  </ul><!---------template Header Ends Here---------->
+	  	  <!---------template Container Starts Here---------->
+	  	  <div class="zf-subContWrap zf-topAlign">
+	  		<ul>
+	  		    <!---------Name Starts Here----------> 
+	  		  <li class="zf-tempFrmWrapper zf-name zf-namemedium">
+	  		    <label class="zf-labelName">Name <em class="zf-important">*</em></label>
+	  		    <div class="zf-tempContDiv">
+	  			  <div>				
+	  		        <span><input id="first" type="text" maxlength="255" name="Name_First" invlovedinsalesiq=false fieldType=7 checktype="c1"/><label>First</label></span>
+	  		        <span class="zf-last"><input id="last" type="text" maxlength="255" invlovedinsalesiq=false fieldType=7 name="Name_Last" checktype="c1"/><label>Last</label></span>
+	  		        <div class="zf-clearBoth"></div>
+	  			  </div>
+	  			  <p id="Name_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+	  		    </div>
+	  		    <div class="zf-clearBoth"></div>
+	  		  </li><!---------Name Ends Here----------> 
+	  		  <!---------Number Starts Here---------->
+	  		  <li class="zf-tempFrmWrapper zf-small">
+	  		    <label class="zf-labelName">Age <em class="zf-important">*</em></label>
+	  		    <div class="zf-tempContDiv">
+	  		      <span><input id="age" type="text" name="Number" checktype="c2" value="" maxlength="2"/></span> 
+	  		      <p id="Number_error" class="zf-errorMessage" style="display:none;">Invalid value</p>
+	  		    </div>
+	  		    <div class="zf-clearBoth"></div>
+	  		  </li><!---------Number Ends Here---------->
+	  	    </ul>
+	  	  </div><!---------template Container Starts Here---------->
+	  	  <ul>
+	  		<li class="zf-fmFooter">
+	  		  <button class="zf-submitColor">Submit</button>
+	  		</li>
+	  	  </ul>
+	  	</div><!-- 'zf-templateWrapper' ends -->
+	    </form>
+	  </div><!-- 'zf-templateWidth' ends -->
+	  <script type="text/javascript">
+	    var zf_DateRegex = new RegExp("^(([0][1-9])|([1-2][0-9])|([3][0-1]))[-](Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)[-](?:(?:19|20)[0-9]{2})$");
+	    var zf_MandArray = [ "Name_First", "Name_Last", "Number"]; 
+	    var zf_FieldArray = [ "Name_First", "Name_Last", "Number"]; 
+	    var isSalesIQIntegrationEnabled = false;
+	  </script>
+	</div>
+  </body>
+</html>

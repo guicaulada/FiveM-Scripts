@@ -1,0 +1,452 @@
+[
+  {
+    "Name": "TAT_ST_000",
+    "LocalizedName": "Stunt Skull",
+    "HashNameMale": "MP_MP_Stunt_Tat_000_M",
+    "HashNameFemale": "MP_MP_Stunt_Tat_000_F",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 4850
+  },
+  {
+    "Name": "TAT_ST_001",
+    "LocalizedName": "8 Eyed Skull",
+    "HashNameMale": "MP_MP_Stunt_tat_001_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_001_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 11600
+  },
+  {
+    "Name": "TAT_ST_002",
+    "LocalizedName": "Big Cat",
+    "HashNameMale": "MP_MP_Stunt_tat_002_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_002_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 8850
+  },
+  {
+    "Name": "TAT_ST_003",
+    "LocalizedName": "Poison Wrench",
+    "HashNameMale": "MP_MP_Stunt_tat_003_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_003_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 4300
+  },
+  {
+    "Name": "TAT_ST_004",
+    "LocalizedName": "Scorpion",
+    "HashNameMale": "MP_MP_Stunt_tat_004_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_004_F",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 6350
+  },
+  {
+    "Name": "TAT_ST_005",
+    "LocalizedName": "Demon Spark Plug",
+    "HashNameMale": "MP_MP_Stunt_tat_005_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_005_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 8850
+  },
+  {
+    "Name": "TAT_ST_006",
+    "LocalizedName": "Toxic Spider",
+    "HashNameMale": "MP_MP_Stunt_tat_006_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_006_F",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 5900
+  },
+  {
+    "Name": "TAT_ST_007",
+    "LocalizedName": "Dagger Devil",
+    "HashNameMale": "MP_MP_Stunt_tat_007_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_007_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 8150
+  },
+  {
+    "Name": "TAT_ST_008",
+    "LocalizedName": "Moonlight Ride",
+    "HashNameMale": "MP_MP_Stunt_tat_008_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_008_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 14750
+  },
+  {
+    "Name": "TAT_ST_009",
+    "LocalizedName": "Arachnid of Death",
+    "HashNameMale": "MP_MP_Stunt_tat_009_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_009_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 10800
+  },
+  {
+    "Name": "TAT_ST_010",
+    "LocalizedName": "Grave Vulture",
+    "HashNameMale": "MP_MP_Stunt_tat_010_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_010_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 11000
+  },
+  {
+    "Name": "TAT_ST_011",
+    "LocalizedName": "Wheels of Death",
+    "HashNameMale": "MP_MP_Stunt_tat_011_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_011_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 10750
+  },
+  {
+    "Name": "TAT_ST_012",
+    "LocalizedName": "Punk Biker",
+    "HashNameMale": "MP_MP_Stunt_tat_012_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_012_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 11950
+  },
+  {
+    "Name": "TAT_ST_013",
+    "LocalizedName": "Dirt Track Hero",
+    "HashNameMale": "MP_MP_Stunt_tat_013_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_013_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 15500
+  },
+  {
+    "Name": "TAT_ST_014",
+    "LocalizedName": "Bat Cat of Spades",
+    "HashNameMale": "MP_MP_Stunt_tat_014_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_014_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8300
+  },
+  {
+    "Name": "TAT_ST_015",
+    "LocalizedName": "Praying Gloves",
+    "HashNameMale": "MP_MP_Stunt_tat_015_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_015_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 13400
+  },
+  {
+    "Name": "TAT_ST_016",
+    "LocalizedName": "Coffin Racer",
+    "HashNameMale": "MP_MP_Stunt_tat_016_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_016_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 12950
+  },
+  {
+    "Name": "TAT_ST_017",
+    "LocalizedName": "Bat Wheel",
+    "HashNameMale": "MP_MP_Stunt_tat_017_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_017_F",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 3800
+  },
+  {
+    "Name": "TAT_ST_018",
+    "LocalizedName": "Vintage Bully",
+    "HashNameMale": "MP_MP_Stunt_tat_018_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_018_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 5400
+  },
+  {
+    "Name": "TAT_ST_019",
+    "LocalizedName": "Engine Heart",
+    "HashNameMale": "MP_MP_Stunt_tat_019_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_019_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8900
+  },
+  {
+    "Name": "TAT_ST_020",
+    "LocalizedName": "Piston Angel",
+    "HashNameMale": "MP_MP_Stunt_tat_020_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_020_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 6950
+  },
+  {
+    "Name": "TAT_ST_021",
+    "LocalizedName": "Golden Cobra",
+    "HashNameMale": "MP_MP_Stunt_tat_021_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_021_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 21200
+  },
+  {
+    "Name": "TAT_ST_022",
+    "LocalizedName": "Piston Head",
+    "HashNameMale": "MP_MP_Stunt_tat_022_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_022_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 16850
+  },
+  {
+    "Name": "TAT_ST_023",
+    "LocalizedName": "Tanked",
+    "HashNameMale": "MP_MP_Stunt_tat_023_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_023_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 18500
+  },
+  {
+    "Name": "TAT_ST_024",
+    "LocalizedName": "Road Kill",
+    "HashNameMale": "MP_MP_Stunt_tat_024_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_024_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8650
+  },
+  {
+    "Name": "TAT_ST_025",
+    "LocalizedName": "Speed Freak",
+    "HashNameMale": "MP_MP_Stunt_tat_025_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_025_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 7200
+  },
+  {
+    "Name": "TAT_ST_026",
+    "LocalizedName": "Winged Wheel",
+    "HashNameMale": "MP_MP_Stunt_tat_026_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_026_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 12300
+  },
+  {
+    "Name": "TAT_ST_027",
+    "LocalizedName": "Punk Road Hog",
+    "HashNameMale": "MP_MP_Stunt_tat_027_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_027_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8950
+  },
+  {
+    "Name": "TAT_ST_028",
+    "LocalizedName": "Quad Goblin",
+    "HashNameMale": "MP_MP_Stunt_tat_028_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_028_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 9850
+  },
+  {
+    "Name": "TAT_ST_029",
+    "LocalizedName": "Majestic Finish",
+    "HashNameMale": "MP_MP_Stunt_tat_029_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_029_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 17350
+  },
+  {
+    "Name": "TAT_ST_030",
+    "LocalizedName": "Man's Ruin",
+    "HashNameMale": "MP_MP_Stunt_tat_030_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_030_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8150
+  },
+  {
+    "Name": "TAT_ST_031",
+    "LocalizedName": "Stunt Jesus",
+    "HashNameMale": "MP_MP_Stunt_tat_031_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_031_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 11000
+  },
+  {
+    "Name": "TAT_ST_032",
+    "LocalizedName": "Wheelie Mouse",
+    "HashNameMale": "MP_MP_Stunt_tat_032_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_032_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 10350
+  },
+  {
+    "Name": "TAT_ST_033",
+    "LocalizedName": "Sugar Skull Trucker",
+    "HashNameMale": "MP_MP_Stunt_tat_033_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_033_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 10400
+  },
+  {
+    "Name": "TAT_ST_034",
+    "LocalizedName": "Feather Road Kill",
+    "HashNameMale": "MP_MP_Stunt_tat_034_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_034_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 9900
+  },
+  {
+    "Name": "TAT_ST_035",
+    "LocalizedName": "Stuntman's End",
+    "HashNameMale": "MP_MP_Stunt_tat_035_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_035_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 12700
+  },
+  {
+    "Name": "TAT_ST_036",
+    "LocalizedName": "Biker Stallion",
+    "HashNameMale": "MP_MP_Stunt_tat_036_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_036_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 2350
+  },
+  {
+    "Name": "TAT_ST_037",
+    "LocalizedName": "Big Grills",
+    "HashNameMale": "MP_MP_Stunt_tat_037_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_037_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 6850
+  },
+  {
+    "Name": "TAT_ST_038",
+    "LocalizedName": "One Down Five Up",
+    "HashNameMale": "MP_MP_Stunt_tat_038_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_038_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 5750
+  },
+  {
+    "Name": "TAT_ST_039",
+    "LocalizedName": "Kaboom",
+    "HashNameMale": "MP_MP_Stunt_tat_039_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_039_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 9350
+  },
+  {
+    "Name": "TAT_ST_040",
+    "LocalizedName": "Monkey Chopper",
+    "HashNameMale": "MP_MP_Stunt_tat_040_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_040_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 15950
+  },
+  {
+    "Name": "TAT_ST_041",
+    "LocalizedName": "Brapp",
+    "HashNameMale": "MP_MP_Stunt_tat_041_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_041_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 10100
+  },
+  {
+    "Name": "TAT_ST_042",
+    "LocalizedName": "Flaming Quad",
+    "HashNameMale": "MP_MP_Stunt_tat_042_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_042_F",
+    "Zone": "ZONE_HEAD",
+    "ZoneID": 1,
+    "Price": 4150
+  },
+  {
+    "Name": "TAT_ST_043",
+    "LocalizedName": "Engine Arm",
+    "HashNameMale": "MP_MP_Stunt_tat_043_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_043_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 10300
+  },
+  {
+    "Name": "TAT_ST_044",
+    "LocalizedName": "Ram Skull",
+    "HashNameMale": "MP_MP_Stunt_tat_044_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_044_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 13900
+  },
+  {
+    "Name": "TAT_ST_045",
+    "LocalizedName": "Severed Hand",
+    "HashNameMale": "MP_MP_Stunt_tat_045_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_045_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 19650
+  },
+  {
+    "Name": "TAT_ST_046",
+    "LocalizedName": "Full Throttle",
+    "HashNameMale": "MP_MP_Stunt_tat_046_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_046_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 12750
+  },
+  {
+    "Name": "TAT_ST_047",
+    "LocalizedName": "Brake Knife",
+    "HashNameMale": "MP_MP_Stunt_tat_047_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_047_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 9200
+  },
+  {
+    "Name": "TAT_ST_048",
+    "LocalizedName": "Racing Doll",
+    "HashNameMale": "MP_MP_Stunt_tat_048_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_048_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 11300
+  },
+  {
+    "Name": "TAT_ST_049",
+    "LocalizedName": "Seductive Mechanic",
+    "HashNameMale": "MP_MP_Stunt_tat_049_M",
+    "HashNameFemale": "MP_MP_Stunt_tat_049_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 23000
+  }
+]

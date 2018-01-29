@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "TAT_IE_000",
+    "LocalizedName": "Block Back",
+    "HashNameMale": "MP_MP_ImportExport_Tat_000_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_000_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 13780
+  },
+  {
+    "Name": "TAT_IE_001",
+    "LocalizedName": "Power Plant",
+    "HashNameMale": "MP_MP_ImportExport_Tat_001_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_001_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 12900
+  },
+  {
+    "Name": "TAT_IE_002",
+    "LocalizedName": "Tuned to Death",
+    "HashNameMale": "MP_MP_ImportExport_Tat_002_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_002_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 12120
+  },
+  {
+    "Name": "TAT_IE_003",
+    "LocalizedName": "Mechanical Sleeve",
+    "HashNameMale": "MP_MP_ImportExport_Tat_003_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_003_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 17200
+  },
+  {
+    "Name": "TAT_IE_004",
+    "LocalizedName": "Piston Sleeve",
+    "HashNameMale": "MP_MP_ImportExport_Tat_004_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_004_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 16350
+  },
+  {
+    "Name": "TAT_IE_005",
+    "LocalizedName": "Dialed In",
+    "HashNameMale": "MP_MP_ImportExport_Tat_005_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_005_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 18615
+  },
+  {
+    "Name": "TAT_IE_006",
+    "LocalizedName": "Engulfed Block",
+    "HashNameMale": "MP_MP_ImportExport_Tat_006_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_006_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 15720
+  },
+  {
+    "Name": "TAT_IE_007",
+    "LocalizedName": "Drive Forever",
+    "HashNameMale": "MP_MP_ImportExport_Tat_007_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_007_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 16685
+  },
+  {
+    "Name": "TAT_IE_008",
+    "LocalizedName": "Scarlett",
+    "HashNameMale": "MP_MP_ImportExport_Tat_008_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_008_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 19900
+  },
+  {
+    "Name": "TAT_IE_009",
+    "LocalizedName": "Serpents of Destruction",
+    "HashNameMale": "MP_MP_ImportExport_Tat_009_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_009_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 16500
+  },
+  {
+    "Name": "TAT_IE_010",
+    "LocalizedName": "Take the Wheel",
+    "HashNameMale": "MP_MP_ImportExport_Tat_010_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_010_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 14235
+  },
+  {
+    "Name": "TAT_IE_011",
+    "LocalizedName": "Talk Shit Get Hit",
+    "HashNameMale": "MP_MP_ImportExport_Tat_011_M",
+    "HashNameFemale": "MP_MP_ImportExport_Tat_011_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 15985
+  }
+]

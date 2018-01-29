@@ -1,0 +1,137 @@
+[
+  {
+    "Name": "TAT_LX_000",
+    "LocalizedName": "Serpent of Death",
+    "HashNameMale": "MP_LUXE_TAT_000_M",
+    "HashNameFemale": "MP_LUXE_TAT_000_F",
+    "Zone": "ZONE_LEFT_LEG",
+    "ZoneID": 4,
+    "Price": 11900
+  },
+  {
+    "Name": "TAT_LX_001",
+    "LocalizedName": "Elaborate Los Muertos",
+    "HashNameMale": "MP_LUXE_TAT_001_M",
+    "HashNameFemale": "MP_LUXE_TAT_001_F",
+    "Zone": "ZONE_RIGHT_LEG",
+    "ZoneID": 5,
+    "Price": 14350
+  },
+  {
+    "Name": "TAT_LX_003",
+    "LocalizedName": "Abstract Skull",
+    "HashNameMale": "MP_LUXE_TAT_003_M",
+    "HashNameFemale": "MP_LUXE_TAT_003_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 8350
+  },
+  {
+    "Name": "TAT_LX_004",
+    "LocalizedName": "Floral Raven",
+    "HashNameMale": "MP_LUXE_TAT_004_M",
+    "HashNameFemale": "MP_LUXE_TAT_004_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 12200
+  },
+  {
+    "Name": "TAT_LX_006",
+    "LocalizedName": "Adorned Wolf",
+    "HashNameMale": "MP_LUXE_TAT_006_M",
+    "HashNameFemale": "MP_LUXE_TAT_006_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 25000
+  },
+  {
+    "Name": "TAT_LX_007",
+    "LocalizedName": "Eye of the Griffin",
+    "HashNameMale": "MP_LUXE_TAT_007_M",
+    "HashNameFemale": "MP_LUXE_TAT_007_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 12450
+  },
+  {
+    "Name": "TAT_LX_008",
+    "LocalizedName": "Flying Eye",
+    "HashNameMale": "MP_LUXE_TAT_008_M",
+    "HashNameFemale": "MP_LUXE_TAT_008_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 18000
+  },
+  {
+    "Name": "TAT_LX_009",
+    "LocalizedName": "Floral Symmetry",
+    "HashNameMale": "MP_LUXE_TAT_009_M",
+    "HashNameFemale": "MP_LUXE_TAT_009_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 19150
+  },
+  {
+    "Name": "TAT_LX_013",
+    "LocalizedName": "Mermaid Harpist",
+    "HashNameMale": "MP_LUXE_TAT_013_M",
+    "HashNameFemale": "MP_LUXE_TAT_013_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 16900
+  },
+  {
+    "Name": "TAT_LX_014",
+    "LocalizedName": "Ancient Queen",
+    "HashNameMale": "MP_LUXE_TAT_014_M",
+    "HashNameFemale": "MP_LUXE_TAT_014_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 18200
+  },
+  {
+    "Name": "TAT_LX_015",
+    "LocalizedName": "Smoking Sisters",
+    "HashNameMale": "MP_LUXE_TAT_015_M",
+    "HashNameFemale": "MP_LUXE_TAT_015_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 16250
+  },
+  {
+    "Name": "TAT_LX_019",
+    "LocalizedName": "Geisha Bloom",
+    "HashNameMale": "MP_LUXE_TAT_019_M",
+    "HashNameFemale": "MP_LUXE_TAT_019_F",
+    "Zone": "ZONE_RIGHT_ARM",
+    "ZoneID": 3,
+    "Price": 16850
+  },
+  {
+    "Name": "TAT_LX_020",
+    "LocalizedName": "Archangel & Mary",
+    "HashNameMale": "MP_LUXE_TAT_020_M",
+    "HashNameFemale": "MP_LUXE_TAT_020_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 22500
+  },
+  {
+    "Name": "TAT_LX_021",
+    "LocalizedName": "Gabriel",
+    "HashNameMale": "MP_LUXE_TAT_021_M",
+    "HashNameFemale": "MP_LUXE_TAT_021_F",
+    "Zone": "ZONE_LEFT_ARM",
+    "ZoneID": 2,
+    "Price": 12850
+  },
+  {
+    "Name": "TAT_LX_024",
+    "LocalizedName": "Feather Mural",
+    "HashNameMale": "MP_LUXE_TAT_024_M",
+    "HashNameFemale": "MP_LUXE_TAT_024_F",
+    "Zone": "ZONE_TORSO",
+    "ZoneID": 0,
+    "Price": 27250
+  }
+]
