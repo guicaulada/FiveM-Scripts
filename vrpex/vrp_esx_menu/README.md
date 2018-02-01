@@ -10,7 +10,7 @@ You can see an example of that on my TinyChatBot Fork.
 This way we can all share our improvements, like the community was supposed to do.  
 
 
-"You must be the change you wish to see in the world." - Mahatma Gandhi
+"One of the best programming skills you can have is knowing when to walk away for awhile." - Oscar Godson
 
 ## License
 
