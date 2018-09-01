@@ -11,6 +11,10 @@ This way we can all share our improvements, like the community was supposed to d
 
 "One of the best programming skills you can have is knowing when to walk away for awhile." - Oscar Godson
 
+**This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.**
+
+**I CEASED SUPPORT FOR THESE SCRIPTS. DO NOT CONTACT ME FOR HELP.**
+
 ## License
 
     FiveM Scripts
