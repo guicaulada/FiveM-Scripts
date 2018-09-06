@@ -91,7 +91,8 @@ end
 function SpawnObject(model, coords, cb)
 
   local model = (type(model) == 'number' and model or GetHashKey(model))
-
+  -- Thread: https://forum.fivem.net/t/low-fps-and-extremely-degradation-of-the-performance-overtime/99158/16
+  if not IsModelInCdimage(model) then return 0 end -- This might fix FPS/Memory issue
   Citizen.CreateThread(function()
 
     RequestModel(model)
