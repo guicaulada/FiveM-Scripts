@@ -19,7 +19,8 @@
 local cfg = module("vrp_cmds", "cfg/commands")
 local Tunnel = module("vrp", "lib/Tunnel")
 local Proxy = module("vrp", "lib/Proxy")
-local htmlEntities = module("vrp", "lib/htmlEntities")
+htmlEntities = module("vrp", "lib/htmlEntities")
+
 vRPcmd = {}
 vRP = Proxy.getInterface("vRP")
 vRPidd = Proxy.getInterface("vrp_id_display")
