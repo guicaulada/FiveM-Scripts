@@ -31,5 +31,6 @@ client_scripts{
 
 server_scripts{ 
   "@vrp/lib/utils.lua",
+  "@vrp/lib/htmlEntities.lua",
   "server.lua"
 }
