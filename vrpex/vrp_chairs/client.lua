@@ -16,17 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-local Tunnel = module("vrp", "lib/Tunnel")
-local Proxy = module("vrp", "lib/Proxy")
-local cfg = module("vrp_chairs", "cfg/chairs")
-vRPch = {}
-Tunnel.bindInterface("vrp_chairs",vRPch)
-CHserver = Tunnel.getInterface("vrp_chairs")
-vRP = Proxy.getInterface("vRP")
+CHserver = Tunnel.getInterface("vrp_chairs","vrp_chairs")
 
 local sitting = false
 local lastPos = nil
 local currentSitObj = nil
+local list = {}
 local closest = {}
 
 function headsUp(text)
@@ -35,79 +30,92 @@ function headsUp(text)
 	DisplayHelpTextFromStringLabel(0, 0, 1, -1)
 end
 
+
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(0)
-		if closest then
-		  local ped = GetPlayerPed(-1)
-		  local distance = closest.distance
-		  local object = closest.object
-          
-		  if not sitting and DoesEntityExist(object) then
-		  	headsUp(cfg.enter)
-		  	local x,y,z = table.unpack(GetEntityCoords(object))
-		  	DrawMarker(0, x, y, z+1.5, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 0.5, 0.5, 0, 255, 0, 100, false, true, 2, false, false, false, false)
-		  	if IsControlJustPressed(0, 38) then
-		  		sit(object)
-		  	end
-		  end
-		  if sitting then
-		  	headsUp(cfg.leave)
-		  	if IsControlJustPressed(0, 23) then
-		  		ClearPedTasks(ped)
-		  		sitting = false
+		Wait(0)
+		local ped = GetPlayerPed(-1)
+
+		if sitting then
+			headsUp('Press ~INPUT_ENTER~ to get up.')
+			if IsControlJustPressed(0, 23) then
+				ClearPedTasks(ped)
+				sitting = false
 				local x,y,z = table.unpack(lastPos)
 				if GetDistanceBetweenCoords(x, y, z,GetEntityCoords(ped)) < 10 then
 					SetEntityCoords(ped, lastPos)
 				end
-		  		FreezeEntityPosition(ped, false)
-		  		FreezeEntityPosition(currentSitObj, false)
-		  		CHserver.unoccupyObj(currentSitObj)
-		  		currentSitObj = nil
-		  	end
-		  end
+				FreezeEntityPosition(ped, false)
+				FreezeEntityPosition(currentSitObj, false)
+				CHserver.unoccupyObj({currentSitObj})
+				currentSitObj = nil
+			end
 		end
 	end
 end)
 
 Citizen.CreateThread(function()
-  while true do
-	Citizen.Wait(0)
-	local ped = GetPlayerPed(-1)
-	local list = {}
-	local x,y,z = table.unpack(GetEntityCoords(ped))
+	local objects = {}
 	for k,v in pairs(cfg.chairs) do
-	  local obj = GetClosestObjectOfType(x, y, z, cfg.distance, GetHashKey(v.prop), false, true ,true)
-	  local dist = GetDistanceBetweenCoords(GetEntityCoords(ped), GetEntityCoords(obj), true)
-	  table.insert(list, {object = obj, distance = dist})
+		table.insert(objects, v.prop)
 	end
+	while true do
+		Wait(1000)
+		list = {}
+		local ped = GetPlayerPed(-1)
+		for k,v in pairs(objects) do
+			local obj = GetClosestObjectOfType(GetEntityCoords(ped).x, GetEntityCoords(ped).y, GetEntityCoords(ped).z, 3.0, GetHashKey(v), false, true ,true)
+			local dist = GetDistanceBetweenCoords(GetEntityCoords(ped), GetEntityCoords(obj), true)
+			table.insert(list, {object = obj, distance = dist})
+		end
 
-	closest = list[1]
-	for k,v in pairs(list) do
-		if v.distance < closest.distance then
-			closest = v
+		closest = list[1]
+		for k,v in pairs(list) do
+			if v.distance < closest.distance then
+				closest = v
+			end
 		end
 	end
-  end
 end)
+
+Citizen.CreateThread(function()
+	while true do
+		Wait(0)
+		local ped = GetPlayerPed(-1)
+		if not sitting then
+			local distance = closest.distance or 5
+			local object = closest.object or nil
+			if distance < cfg.distance and not sitting and DoesEntityExist(object) then
+				headsUp('You are close to an object on which you can sit! Press ~INPUT_CONTEXT~ to sit!')
+				DrawMarker(0, GetEntityCoords(object).x, GetEntityCoords(object).y, GetEntityCoords(object).z+1.5, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 0.5, 0.5, 0.5, 0, 255, 0, 100, false, true, 2, false, false, false, false)
+				if IsControlJustReleased(0, 38) then
+					sit(object)
+				end
+			end
+		end
+	end
+end)
+
+
 
 function sit(object)
 	local isOccupied = nil
 	local ped = GetPlayerPed(-1)
-	local occupied = CHserver.getOccupied()
-	isOccupied = false
-	for k,v in pairs(occupied) do
-		if v == object then
-			isOccupied = true
+	CHserver.getOccupied({}, function(occupied)
+		isOccupied = false
+		for k,v in pairs(occupied) do
+			if v == object then
+				isOccupied = true
+			end
 		end
-	end
+	end)
 	while isOccupied == nil do
 		Wait(0)
 	end
 	if not isOccupied then
 		lastPos = GetEntityCoords(ped)
 		currentSitObj = object
-		CHserver.occupyObj(object)
+		CHserver.occupyObj({object})
 		FreezeEntityPosition(object, true)
 		local objinfo = {}
 		for k,v in pairs(cfg.chairs) do
@@ -115,12 +123,11 @@ function sit(object)
 				objinfo = v
 			end
 		end
-		sitting = true
 		local objloc = GetEntityCoords(object)
-		if cfg.debug then
-		  vRP.notify(objinfo.prop)
-		  print(objinfo.prop)
-		end
-		TaskStartScenarioAtPosition(ped, objinfo.task, objloc.x+objinfo.x, objloc.y+objinfo.y, objloc.z+objinfo.z, GetEntityHeading(object)+objinfo.h, 0, true, true)
+		SetEntityCoords(ped, objloc.x, objloc.y, objloc.z+objinfo.verticalOffset)
+		SetEntityHeading(ped, GetEntityHeading(object)+objinfo.angularOffset)
+		FreezeEntityPosition(ped, true)
+		sitting = true
+		TaskStartScenarioAtPosition(ped, objinfo.scenario, objloc.x, objloc.y, objloc.z-objinfo.verticalOffset, GetEntityHeading(object)+180.0, 0, true, true)
 	end
 end
