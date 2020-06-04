@@ -20,6 +20,15 @@
 -- Author: @NicolasStr_
 -- If you have any issue, please consider opening a issue on Github
 --
+
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
+
+author 'Sighmir'
+description 'fivem-loading-sleek'
+version '1.0.0'
+
 files {
     'files/index.html',
     'files/config.js',
