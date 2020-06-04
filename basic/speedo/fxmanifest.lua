@@ -16,6 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
+
+author 'Sighmir'
+description 'speedo'
+version '1.0.0'
 
 client_script 'scripts/client.lua'
