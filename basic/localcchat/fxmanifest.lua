@@ -16,6 +16,16 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
 
-client_script 'scripts/client.lua'
+author 'Sighmir'
+description 'localcchat'
+version '1.0.0'
+
+server_script 'server.lua'
+
+client_script 'client.lua'
+
+dependency 'vrp'

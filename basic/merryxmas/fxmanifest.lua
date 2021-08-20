@@ -16,11 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
 
-description "npc_control"
+author 'Sighmir'
+description 'Merry Christmas!'
+version '1.0.0'
 
-client_scripts{ 
-  "lib/enum.lua",
-  "cfg/npcs.lua",
-  "client.lua"
-}
+client_script 'client.lua'

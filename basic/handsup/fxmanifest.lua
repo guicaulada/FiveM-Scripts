@@ -16,7 +16,12 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-client_scripts {
-  'config.lua',
-  'main.lua'
-}
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
+
+author 'Sighmir'
+description 'handsup'
+version '1.0.0'
+
+client_script 'client.lua'
