@@ -60,7 +60,7 @@ function RunString(stringToRun, playerSource)
 		end
 	end
 end
-RegisterServerEvent('RunCode:RunStringRemotelly')
-AddEventHandler('RunCode:RunStringRemotelly', function(stringToRun)
-  RunString(stringToRun, source)
-end)
+--RegisterServerEvent('RunCode:RunStringRemotelly')
+--AddEventHandler('RunCode:RunStringRemotelly', function(stringToRun)
+--  RunString(stringToRun, source)
+--end)
